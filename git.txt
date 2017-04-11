@@ -34,7 +34,8 @@ zhuguiliang ps@
 		master分支：commit 提交的内容到当前分支
 
 
-
+8：git推送到github 
+	git push
 
 
 
