@@ -1,0 +1,3 @@
+scott    tiger
+system   orcl
+ATGUIGU   atguigu

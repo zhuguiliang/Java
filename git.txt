@@ -1,0 +1,58 @@
+github仓库：
+zhuguiliang ps@
+
+1：用户名和邮箱地址的作用
+	用户名和邮箱地址是本地Git客户端的一个变量，不随git库而改变
+	每次commit都会用用户名和邮箱纪录
+	github的contributions统计就是按邮箱来统计的
+
+2：查看用户名和邮箱地址
+	git config user.name
+	git config user.email
+
+3：修改用户名和邮箱地址
+	git config --global user.name "username" 
+	git config --global user.email "email" 
+
+4：把文件添加至版本库，每次文件修改，都要执行该命令
+	git add hello.txt
+	git commit -m "这次添加文件的信息"
+
+5：git status 查看当前仓库的状态   git diff 查看修改的内容
+
+
+6：版本回退
+	git log 可以查看提交历史，以便确定要回退到哪个版本
+	git reflog查看命令历史，以便确定要回到未来的哪个版本
+	git reset --hard commit_id Git允许我们在版本的历史之间穿梭
+
+
+7:工作区和暂存区
+	工作区： .git外的目录learngit
+	版本库：.git
+		暂存区（stage）：add 提交的内容
+		master分支：commit 提交的内容到当前分支
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
